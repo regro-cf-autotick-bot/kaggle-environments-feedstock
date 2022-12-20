@@ -23,6 +23,8 @@ requirements:
     - python >=3.6
   run:
     - flask >=1.1.2
+    - gym
+    - ipython
     - jsonschema >=3.0.1
     - numpy >=1.19.5
     - python >=3.6
