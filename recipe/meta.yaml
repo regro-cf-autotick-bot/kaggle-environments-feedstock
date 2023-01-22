@@ -1,5 +1,5 @@
 {% set name = "kaggle-environments" %}
-{% set version = "1.11.1" %}
+{% set version = "1.11.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kaggle-environments-{{ version }}.tar.gz
-  sha256: 866685d75b20550e74e70c87db932f45c5e8c46d57728cb1bbaed0f4fd2fe1a8
+  sha256: bde8b6c692d17816a29d977cbcb240d5c5b3aa6ccb7c09aac8cce72322a84bec
 
 build:
   number: 0
@@ -23,6 +23,8 @@ requirements:
     - python >=3.6
   run:
     - flask >=1.1.2
+    - gym
+    - ipython
     - jsonschema >=3.0.1
     - numpy >=1.19.5
     - python >=3.6
