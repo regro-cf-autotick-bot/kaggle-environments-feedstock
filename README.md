@@ -1,11 +1,11 @@
-About kaggle-environments
-=========================
+About kaggle-environments-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kaggle-environments-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Kaggle/kaggle-environments
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kaggle-environments-feedstock/blob/main/LICENSE.txt)
 
 Summary: Kaggle Environments
 
