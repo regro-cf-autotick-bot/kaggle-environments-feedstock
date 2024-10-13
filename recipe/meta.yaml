@@ -20,6 +20,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python >=3.6
   run:
     - flask >=1.1.2
@@ -38,6 +39,7 @@ test:
     - kaggle-environments --help
   requires:
     - pip
+    - setuptools
 
 about:
   home: https://github.com/Kaggle/kaggle-environments
