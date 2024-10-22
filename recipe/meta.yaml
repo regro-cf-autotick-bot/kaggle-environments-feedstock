@@ -37,6 +37,7 @@ requirements:
     - pandas
     - transformers
     - stable-baselines3
+    - shimmy
 
 test:
   imports:
