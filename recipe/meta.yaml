@@ -30,6 +30,13 @@ requirements:
     - numpy >=1.19.5
     - python >=3.6
     - requests >=2.25.1
+    - chess
+    - gymnasium
+    - pettingzoo
+    - scipy
+    - pandas
+    - transformers
+    - stable-baselines3
 
 test:
   imports:
