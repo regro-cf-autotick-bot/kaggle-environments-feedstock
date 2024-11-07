@@ -30,6 +30,13 @@ requirements:
     - numpy >=1.19.5
     - python >=3.6
     - requests >=2.25.1
+    - chessnut
+    - gymnasium
+    - pettingzoo
+    - scipy
+    - shimmy
+    - stable-baselines3
+    - transformers
 
 test:
   imports:
@@ -39,7 +46,6 @@ test:
     - kaggle-environments --help
   requires:
     - pip
-    - setuptools
 
 about:
   home: https://github.com/Kaggle/kaggle-environments
