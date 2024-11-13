@@ -1,5 +1,5 @@
 {% set name = "kaggle-environments" %}
-{% set version = "1.14.8" %}
+{% set version = "1.16.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kaggle-environments-{{ version }}.tar.gz
-  sha256: 7044d1cd64657a7c3f342d65ca4388e1648871e63deb4be9c425d0d996cf7984
+  sha256: e7e0436e03e3d04a198b0fc9dcd332a8228c51e0d7e17971fb8da07744bf6f05
 
 build:
   number: 0
