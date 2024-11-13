@@ -29,6 +29,12 @@ requirements:
     - numpy >=1.19.5
     - python >=3.6
     - requests >=2.25.1
+    - gymnasium 0.29.0
+    - pettingzoo 1.24.0
+    - scipy
+    - shimmy
+    - stable-baselines3 2.1.0
+    - transformers
 
 test:
   imports:
