@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kaggle-environments-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kaggle-environments-{{ version }}.tar.gz
   sha256: e7e0436e03e3d04a198b0fc9dcd332a8228c51e0d7e17971fb8da07744bf6f05
 
 build:
