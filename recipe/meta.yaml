@@ -1,5 +1,6 @@
 {% set name = "kaggle-environments" %}
 {% set version = "1.16.2" %}
+{% set python_min = "3.6" %}
 
 
 package:
@@ -20,14 +21,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - flask >=1.1.2
     - gym
     - ipython
     - jsonschema >=3.0.1
     - numpy >=1.19.5
-    - python >=3.6
+    - python >={{ python_min }}
     - requests >=2.25.1
     - gymnasium 0.28.*
     - pettingzoo 1.24.*
@@ -35,6 +36,7 @@ requirements:
     - shimmy
     - stable-baselines3 2.1.0
     - transformers
+    - chessnut
 
 test:
   imports:
@@ -43,6 +45,7 @@ test:
     - pip check
     - kaggle-environments --help
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
