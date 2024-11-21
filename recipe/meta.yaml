@@ -31,7 +31,7 @@ requirements:
     - numpy >=1.19.5
     - python >={{ python_min }}
     - requests >=2.25.1
-    - gymnasium 0.28.*
+    - gymnasium 0.29.*
     - pettingzoo 1.24.*
     - scipy
     - shimmy
