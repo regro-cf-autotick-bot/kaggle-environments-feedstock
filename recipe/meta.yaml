@@ -1,6 +1,6 @@
 {% set name = "kaggle-environments" %}
 {% set version = "1.16.2" %}
-{% set python_min = "3.9" %}
+{% set python_min = "3.8" %}
 
 
 package:
@@ -25,19 +25,17 @@ requirements:
     - setuptools
   run:
     - flask >=1.1.2
-    - gym
-    - ipython
     - jsonschema >=3.0.1
     - numpy >=1.19.5
     - python >={{ python_min }}
     - requests >=2.25.1
-    - gymnasium =0.28.1
-    - pettingzoo 1.24.*
-    - scipy
-    - shimmy
+    - gymnasium =0.29.0
+    - pettingzoo =1.24.0
+    - scip y>= 1.11.2
+    - shimmy >= 1.2.1
     - stable-baselines3 =2.1.0
-    - transformers
-    - chessnut
+    - transformers >=4.33.1
+    - Chessnut >=0.4.1
 
 test:
   imports:
