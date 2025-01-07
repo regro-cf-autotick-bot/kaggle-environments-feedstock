@@ -31,11 +31,11 @@ requirements:
     - numpy >=1.19.5
     - python >={{ python_min }}
     - requests >=2.25.1
-    - gymnasium=0.28.0
+    - gymnasium =0.28.1
     - pettingzoo 1.24.*
     - scipy
     - shimmy
-    - stable-baselines3=2.1.0
+    - stable-baselines3 =2.1.0
     - transformers
     - chessnut
 
